@@ -1,4 +1,4 @@
-# Create S3 Bucket Resource
+# Create S3 Bucket Resource on aws using terrafomr
 resource "aws_s3_bucket" "s3_bucket" {
   bucket = var.bucket_name
   acl    = "public-read"
